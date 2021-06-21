@@ -1,0 +1,15 @@
+plugins {
+    id 'groovy'
+    id 'java-library'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation 'org.codehaus.groovy:groovy-all:2.5.11'
+    implementation 'com.xlson.groovycsv:groovycsv:1.3'
+
+    testImplementation 'org.spockframework:spock-core:1.3-groovy-2.5'
+}
